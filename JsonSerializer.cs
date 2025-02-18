@@ -4,7 +4,7 @@ using SingularFrameworkCore.Serialization;
 
 namespace SingularFrameworkCore.Serialization.Newtonsoft.Json;
 
-class JsonSerializer<T> : IEntitySerializer<T, string>
+public class JsonSerializer<T> : IEntitySerializer<T, string>
 {
     public string Serialize(T entity)
     {

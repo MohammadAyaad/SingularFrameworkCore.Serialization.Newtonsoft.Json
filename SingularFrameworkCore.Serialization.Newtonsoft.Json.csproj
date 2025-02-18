@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <PackageId>SingularFrameworkCore.Serialization.Newtonsoft.Json</PackageId>
-    <Version>0.1.0-alpha</Version>
+    <Version>0.1.1-alpha</Version>
     <Authors>Mohammad Ayaad</Authors>
     <Description>A library providing an implementation of SingularFrameworkCore.Repository.IEntitySerializer&lt;T,string&gt; for serialization from T to string in Json format using Newtonsoft.Json library</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
