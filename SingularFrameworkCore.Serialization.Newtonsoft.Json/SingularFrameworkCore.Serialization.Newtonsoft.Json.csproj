@@ -20,8 +20,8 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="SingularFrameworkCore" Version="0.1.0-alpha" />
-    <None Include="README.md" Pack="true" PackagePath="/" />
-    <None Include="LICENSE" Pack="true" PackagePath="/" />
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE" Pack="true" PackagePath="/" />
     <None Include="../logo.png" Pack="true" PackagePath="/" />
   </ItemGroup>
 
