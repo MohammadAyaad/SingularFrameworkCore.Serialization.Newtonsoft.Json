@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <PackageId>SingularFrameworkCore.Serialization.Newtonsoft.Json</PackageId>
-    <Version>0.1.0-alpha</Version>
+    <Version>0.2.0-beta</Version>
     <Authors>Mohammad Ayaad</Authors>
     <Description>A library providing an implementation of SingularFrameworkCore.Repository.IEntitySerializer&lt;T,string&gt; for serialization from T to string in Json format using Newtonsoft.Json library</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
@@ -13,13 +13,16 @@
     <PackageTags>singular;io;object;single;managing;json;newtonsoft;serialization</PackageTags>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageIcon>logo.png</PackageIcon>
+    <Copyright>© 2025 Mohammad Ayaad. Licensed under the Apache License, Version 2.0.</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="SingularFrameworkCore" Version="0.1.0-alpha" />
-    <None Include="README.md" Pack="true" PackagePath="/" />
-    <None Include="LICENSE" Pack="true" PackagePath="/" />
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE" Pack="true" PackagePath="/" />
+    <None Include="../logo.png" Pack="true" PackagePath="/" />
   </ItemGroup>
 
 </Project>

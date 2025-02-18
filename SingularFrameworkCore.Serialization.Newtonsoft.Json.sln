@@ -1,8 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingularFrameworkCore.Serialization.Newtonsoft.Json", "SingularFrameworkCore.Serialization.Newtonsoft.Json.csproj", "{D1200155-DDA5-0D02-5A2C-20368669200D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingularFrameworkCore.Serialization.Newtonsoft.Json", "SingularFrameworkCore.Serialization.Newtonsoft.Json\SingularFrameworkCore.Serialization.Newtonsoft.Json.csproj", "{D1200155-DDA5-0D02-5A2C-20368669200D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingularFrameworkCore.Serialization.Newtonsoft.Json.Tests", "SingularFrameworkCore.Serialization.Newtonsoft.Json.Tests\SingularFrameworkCore.Serialization.Newtonsoft.Json.Tests.csproj", "{DD1B1937-1E22-48C4-A766-87503E8C1FC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +16,10 @@ Global
 		{D1200155-DDA5-0D02-5A2C-20368669200D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1200155-DDA5-0D02-5A2C-20368669200D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1200155-DDA5-0D02-5A2C-20368669200D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1B1937-1E22-48C4-A766-87503E8C1FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1B1937-1E22-48C4-A766-87503E8C1FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1B1937-1E22-48C4-A766-87503E8C1FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1B1937-1E22-48C4-A766-87503E8C1FC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
