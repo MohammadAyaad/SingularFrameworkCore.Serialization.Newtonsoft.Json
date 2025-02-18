@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SingularFrameworkCore.Serialization.Newtonsoft.Json\SingularFrameworkCore.Serialization.Newtonsoft.Json.csproj" />
+  </ItemGroup>
+
 </Project>
